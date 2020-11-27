@@ -1,0 +1,224 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header { 
+    position: relative;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    
+    list-style-type: none;
+}
+
+.menu .menu_link {
+
+    font-size: 15px;
+    font-weight: 300;
+
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader{
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;  /* esli logo stanet vdrug bolshoe, to ne previshat 100% ot shiriny colonki k a */
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    height: 18px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.subheader .subheader_call{  
+    display: block;
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #ffffff;
+}
+
+.subheader .subheader_phone{
+    display: block;
+    
+    font-size: 22px;
+    font-weight: 400;
+
+    line-height: 24px;
+
+    color: #ffffff;
+}
+
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 182px;
+    height: 56px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100% );
+    text-shadow: 1px 1px 0 rgba(0,0,0,.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/Header-bg.jpg') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+
+}
+
+.promo .promo_subheader {
+    line-height: 36px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 23px;
+}
+
+.promo .promo_btn{
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 182px;
+    height: 56px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100% );
+    text-shadow: 1px 1px 0 rgba(0,0,0,.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.reasons {
+    padding: 70px 0 65px 0;
+    min-height: 900px;
+    background-color: #ffffff;
+}
+
+.title{
+    margin: 34px auto 0 auto;
+    width: 100%;
+    height: 105px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+.label {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 25px;
+}
+
+.reasons .reason_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.reasons .reason {
+    
+    width: 341px;
+    
+}
+
+.reasons .round {
+    display: flex;
+    background-color: #1eacc7;
+    border-radius: 100%;
+    min-width: 113px;
+    min-height: 113px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 26px;
+}
+
+/* .reasons .reason_icon {
+    display: block;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+} */
+.reason {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: left;
+    color: #202020;
+    min-height: 182px;
+  }
+
+.reason span {
+    font-size: 17px;
+    font-weight: 300;
+    color: #1eacc7;
+
+}
+
